@@ -14,6 +14,9 @@
 	transition: 0.5s background ease;
   }
   .container {
+	max-width: 900px;
+	width: 100%;
+	margin: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -66,7 +69,7 @@
 	  position: relative;
 	  color: var(--text);
 	  font-family: 'Oswald', sans-serif;
-	  font-size: 20px;
+	  font-size: 16px;
 	  text-decoration: none;
 	  &:before {
 		position: absolute;
