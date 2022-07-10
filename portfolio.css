@@ -16,6 +16,9 @@ body {
 }
 
 .container {
+  max-width: 900px;
+	width: 100%;
+	margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +76,7 @@ ul a, ul p {
   position: relative;
   color: var(--text);
   font-family: "Oswald", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
 }
 ul a:before, ul p:before {
